@@ -14,31 +14,101 @@
     </div>
 
   <!-- 导航 -->
-  <div class="nav box">
-    <div class="logo">
-      <img src="./assets/logo.png" alt="">
-    </div>
-    <div class="sort">
-      <ul>
-        <li><a href="#">首页</a></li>
-        <li><a href="#">生鲜</a></li>
-        <li><a href="#">美食</a></li>
-        <li><a href="#">餐厨</a></li>
-        <li><a href="#">电器</a></li>
-        <li><a href="#">居家</a></li>
-        <li><a href="#">洗护</a></li>
-        <li><a href="#">孕婴</a></li>
-        <li><a href="#">服装</a></li>
-      </ul>
-    </div>
-    <div class="search">
-      <input type="text" placeholder="搜一搜">
-      <span></span>
-      <div class="car">
-        <!-- <span class="red">2</span> -->
+    <div class="nav box">
+      <div class="logo">
+        <img src="./assets/logo.png" alt="">
+      </div>
+      <div class="sort">
+        <ul>
+          <li><a href="#">首页</a></li>
+          <li><a href="#">生鲜</a></li>
+          <li><a href="#">美食</a></li>
+          <li><a href="#">餐厨</a></li>
+          <li><a href="#">电器</a></li>
+          <li><a href="#">居家</a></li>
+          <li><a href="#">洗护</a></li>
+          <li><a href="#">孕婴</a></li>
+          <li><a href="#">服装</a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="搜一搜">
+        <span></span>
+        <div class="car">
+          <!-- <span class="red">2</span> -->
+        </div>
       </div>
     </div>
-  </div>
+
+    <!-- 轮播图 -->
+    <div class="banner">
+      <div class="box">
+        <img src="./assets/uploads/banner_1.png" alt="">
+        <h2>
+          <ul>
+            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
+            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
+            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
+            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
+            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
+            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
+            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
+            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
+            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
+            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
+          </ul>
+        </h2>
+        <div>
+          <span class="forward"></span>
+          <span class="back"></span>
+        </div>
+        <div class="point">
+          <ul>
+            <li></li>
+            <li></li>
+            <li class="round"></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 新鲜好物 -->
+    <div class="article">
+      <div class="box">
+        <h3 class="clearfix">
+          <ul>
+            <li >
+              新鲜好物
+              <span>新鲜出炉 品质靠谱</span>
+              <span>查看全部</span>
+              <span>></span>
+            </li>
+          </ul>
+        </h3>
+        <div class="nominate">
+          <ul>
+            <li>
+              <img src="./assets/uploads/new_goods_1.jpg" alt="">
+              <h4>睿米无线吸尘器F8 <div><span>￥</span>899</div></h4>
+            </li>
+            <li>
+              <img src="./assets/uploads/new_goods_1.jpg" alt="">
+              <h4>睿米无线吸尘器F8 <div><span>￥</span>899</div></h4>
+            </li>
+            <li>
+              <img src="./assets/uploads/new_goods_1.jpg" alt="">
+              <h4>睿米无线吸尘器F8 <div><span>￥</span>899</div></h4>
+            </li>
+            <li>
+              <img src="./assets/uploads/new_goods_1.jpg" alt="">
+              <h4>睿米无线吸尘器F8 <div><span>￥</span>899</div></h4>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -224,5 +294,151 @@ input {
   position: absolute;
   top: 20px;
   left: 0px;
+  background-color: red;
+}
+
+/* 轮播图 */
+.banner{
+  position: relative;
+  height: 500px;
+  background-color: #f5f5f5;
+}
+
+.banner .box {
+  position: relative;
+}
+
+.banner h2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 251px;
+  height: 500px;
+  background-color: #000;
+  opacity: 0.8;
+}
+
+.banner h2 li:hover {
+  background-color: #27ba9b;
+}
+
+.banner h2 a {
+  display: block;
+  padding-left: 36px;
+  height: 50px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 50px;
+}
+
+.banner h2 a span {
+  padding-left: 15px;
+  padding-right: 82px;
+  font-size: 14px;
+}
+
+.banner .forward {
+  position: absolute;
+  top: 228px;
+  left: 260px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #000;
+  opacity: 0.2;
+  background-image: url(./assets/images/sprites.png);
+  background-position: 15px -59px;
+}
+
+.banner .back {
+  position: absolute;
+  top: 228px;
+  left: 1160px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #000;
+  opacity: 0.2;
+  background-image: url(./assets/images/sprites.png);
+  background-position: -23px -59px;
+}
+
+.banner .point {
+  position: absolute;
+  top: 459px;
+  left: 680px;
+}
+
+.banner .point li {
+  margin-left: 15px;
+  float: left;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  opacity: 0.5;
+  border-radius: 50%;
+}
+
+.banner .point .round{
+  background-color: #fff;
+  opacity: 1;
+}
+
+/* 新鲜好物 */
+.article{
+  margin: 48px 0;
+  height: 471px;
+  background-color: #fff;
+}
+.article h3 li {
+  float: left;
+  color: #333;
+  font-size: 29px;
+}
+
+.article h3 li span {
+  color: #999;
+  font-size: 16px;
+}
+.article h3 li span:nth-child(1){
+  padding-right: 863px;
+  padding-left: 34px;
+}
+
+.article h3 li span:nth-child(2) {
+  padding-right: 13px;
+}
+
+.nominate ul li{
+  float: left;
+  margin: 37px 6px 0 0;
+  width: 305px;
+  height: 405px;
+  background-color: #f0f9f4;
+}
+
+.nominate ul li:nth-child(4) {
+  margin-right: 0;
+}
+
+.nominate ul li img {
+  width: 305px;
+  height: 305px;
+}
+
+.nominate ul li h4 {
+  padding-top: 22px;
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+}
+
+.nominate ul li h4 div {
+  font-size: 23px;
+  color: #9a2e1f;
+}
+
+.nominate ul li h4 div span {
+  font-size: 17px;
 }
 </style>
