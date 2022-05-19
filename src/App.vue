@@ -3,20 +3,20 @@
     <!-- 头部 -->
     <div class="title">
       <ul class="box">
-        <li> <a href="#">请先登录</a></li>
-        <li> <a href="#">免费注册</a></li>
-        <li> <a href="#">我的订单</a></li>
-        <li> <a href="#">会员中心</a></li>
-        <li> <a href="#">帮助中心</a></li>
-        <li> <a href="#">在线客服</a></li>
-        <li> <a href="#">手机版</a></li>
+        <li><a href="#">请先登录</a></li>
+        <li><a href="#">免费注册</a></li>
+        <li><a href="#">我的订单</a></li>
+        <li><a href="#">会员中心</a></li>
+        <li><a href="#">帮助中心</a></li>
+        <li><a href="#">在线客服</a></li>
+        <li><a href="#">手机版</a></li>
       </ul>
     </div>
 
-  <!-- 导航 -->
+    <!-- 导航 -->
     <div class="nav box">
       <div class="logo">
-        <img src="./assets/logo.png" alt="">
+        <img src="./assets/logo.png" alt="" />
       </div>
       <div class="sort">
         <ul>
@@ -32,7 +32,7 @@
         </ul>
       </div>
       <div class="search">
-        <input type="text" placeholder="搜一搜">
+        <input type="text" placeholder="搜一搜" />
         <span></span>
         <div class="car">
           <!-- <span class="red">2</span> -->
@@ -43,19 +43,39 @@
     <!-- 轮播图 -->
     <div class="banner">
       <div class="box">
-        <img src="./assets/uploads/banner_1.png" alt="">
+        <img src="./assets/uploads/banner_1.png" alt="" />
         <h2>
           <ul>
-            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
-            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
-            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
-            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
-            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
-            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
-            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
-            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
-            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
-            <li><a href="javascript:;">生鲜<span>水果 蔬菜</span>></a></li>
+            <li>
+              <a href="javascript:;">生鲜<span>水果 蔬菜</span>></a>
+            </li>
+            <li>
+              <a href="javascript:;">生鲜<span>水果 蔬菜</span>></a>
+            </li>
+            <li>
+              <a href="javascript:;">生鲜<span>水果 蔬菜</span>></a>
+            </li>
+            <li>
+              <a href="javascript:;">生鲜<span>水果 蔬菜</span>></a>
+            </li>
+            <li>
+              <a href="javascript:;">生鲜<span>水果 蔬菜</span>></a>
+            </li>
+            <li>
+              <a href="javascript:;">生鲜<span>水果 蔬菜</span>></a>
+            </li>
+            <li>
+              <a href="javascript:;">生鲜<span>水果 蔬菜</span>></a>
+            </li>
+            <li>
+              <a href="javascript:;">生鲜<span>水果 蔬菜</span>></a>
+            </li>
+            <li>
+              <a href="javascript:;">生鲜<span>水果 蔬菜</span>></a>
+            </li>
+            <li>
+              <a href="javascript:;">生鲜<span>水果 蔬菜</span>></a>
+            </li>
           </ul>
         </h2>
         <div>
@@ -79,7 +99,7 @@
       <div class="box">
         <h3 class="clearfix">
           <ul>
-            <li >
+            <li>
               新鲜好物
               <span>新鲜出炉 品质靠谱</span>
               <span>查看全部</span>
@@ -90,21 +110,91 @@
         <div class="nominate">
           <ul>
             <li>
-              <img src="./assets/uploads/new_goods_1.jpg" alt="">
-              <h4>睿米无线吸尘器F8 <div><span>￥</span>899</div></h4>
+              <img src="./assets/uploads/new_goods_1.jpg" alt="" />
+              <h4>
+                睿米无线吸尘器F8
+                <div><span>￥</span>899</div>
+              </h4>
             </li>
             <li>
-              <img src="./assets/uploads/new_goods_1.jpg" alt="">
-              <h4>睿米无线吸尘器F8 <div><span>￥</span>899</div></h4>
+              <img src="./assets/uploads/new_goods_1.jpg" alt="" />
+              <h4>
+                睿米无线吸尘器F8
+                <div><span>￥</span>899</div>
+              </h4>
             </li>
             <li>
-              <img src="./assets/uploads/new_goods_1.jpg" alt="">
-              <h4>睿米无线吸尘器F8 <div><span>￥</span>899</div></h4>
+              <img src="./assets/uploads/new_goods_1.jpg" alt="" />
+              <h4>
+                睿米无线吸尘器F8
+                <div><span>￥</span>899</div>
+              </h4>
             </li>
             <li>
-              <img src="./assets/uploads/new_goods_1.jpg" alt="">
-              <h4>睿米无线吸尘器F8 <div><span>￥</span>899</div></h4>
+              <img src="./assets/uploads/new_goods_1.jpg" alt="" />
+              <h4>
+                睿米无线吸尘器F8
+                <div><span>￥</span>899</div>
+              </h4>
             </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+      <div class="box">
+        <ul>
+          <li>
+            <div>客户服务</div>
+            <h5>
+              <div><span></span>在线客服</div>
+              <div><span></span>问题反馈</div>
+            </h5>
+          </li>
+          <li>
+            <div>客户服务</div>
+            <h5>
+              <div><span></span>在线客服</div>
+              <div><span></span>问题反馈</div>
+            </h5>
+          </li>
+          <li>
+            <div>客户服务</div>
+            <h5>
+              <div><span></span>在线客服</div>
+              <div><span></span>问题反馈</div>
+            </h5>
+          </li>
+          <li>
+            <div>客户服务</div>
+            <h5>
+              <div><span></span>在线客服</div>
+              <div><span></span>问题反馈</div>
+            </h5>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 版权部分 -->
+    <div class="drm">
+      <div class="box">
+        <ul>
+          <li><span></span>价格亲民</li>
+          <li><span></span>价格亲民</li>
+          <li><span></span>价格亲民</li>
+        </ul>
+        <div class="about">
+          <ul>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">关于我们</a></li>
           </ul>
         </div>
       </div>
@@ -113,12 +203,10 @@
 </template>
 
 <script>
-
 export default {
-  name: 'App',
-  components: {
-  }
-}
+  name: "App",
+  components: {},
+};
 </script>
 
 <style>
@@ -145,7 +233,7 @@ input {
 
 /* 內减模式 */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* 设置网页统一的字体大小、行高、字体系列相关属性 */
@@ -205,24 +293,23 @@ input {
   clear: both;
 }
 
-.box{
+.box {
   width: 1240px;
   margin: 0 auto;
 }
 
 /* 头部 */
-  .title {
+.title {
   width: 100%;
   height: 52px;
   background-color: #333;
 }
 
-.title ul li{
+.title ul li {
   float: right;
-  
 }
 
-.title ul li a{
+.title ul li a {
   padding: 0 16px;
   border-right: 1px solid #666;
   color: #dcdcdc;
@@ -231,7 +318,7 @@ input {
 }
 
 /* 导航 */
-.nav{
+.nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -239,7 +326,7 @@ input {
   /* background-color: pink; */
 }
 
-.nav .logo img{
+.nav .logo img {
   width: 207px;
   height: 70px;
 }
@@ -255,17 +342,17 @@ input {
   border-bottom: 1px solid #27ba9b;
 }
 
-.nav .search{
+.nav .search {
   position: relative;
   width: 222px;
   height: 33px;
 }
 
-.nav .search input{
+.nav .search input {
   padding-left: 30px;
   width: 172px;
   height: 30px;
-  border-bottom:2px solid #e7e7e7 ;
+  border-bottom: 2px solid #e7e7e7;
 }
 
 .nav .search span {
@@ -290,7 +377,7 @@ input {
   background-position: -120px -69px;
 }
 
-.red{
+.red {
   position: absolute;
   top: 20px;
   left: 0px;
@@ -298,7 +385,7 @@ input {
 }
 
 /* 轮播图 */
-.banner{
+.banner {
   position: relative;
   height: 500px;
   background-color: #f5f5f5;
@@ -308,7 +395,7 @@ input {
   position: relative;
 }
 
-.banner h2{
+.banner h2 {
   position: absolute;
   top: 0;
   left: 0;
@@ -379,13 +466,13 @@ input {
   border-radius: 50%;
 }
 
-.banner .point .round{
+.banner .point .round {
   background-color: #fff;
   opacity: 1;
 }
 
 /* 新鲜好物 */
-.article{
+.article {
   margin: 48px 0;
   height: 471px;
   background-color: #fff;
@@ -400,7 +487,7 @@ input {
   color: #999;
   font-size: 16px;
 }
-.article h3 li span:nth-child(1){
+.article h3 li span:nth-child(1) {
   padding-right: 863px;
   padding-left: 34px;
 }
@@ -409,7 +496,7 @@ input {
   padding-right: 13px;
 }
 
-.nominate ul li{
+.nominate ul li {
   float: left;
   margin: 37px 6px 0 0;
   width: 305px;
@@ -440,5 +527,123 @@ input {
 
 .nominate ul li h4 div span {
   font-size: 17px;
+}
+
+/* 底部 */
+.footer {
+  height: 300px;
+  /* background-color: pink; */
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 79px;
+}
+
+.footer ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer ul li h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.footer ul li h5 div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 93px;
+  height: 93px;
+  background-color: #fff;
+  border: solid 1px #eeeeee;
+}
+
+.footer ul li h5 div:nth-child(1) span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  /* background-color: skyblue; */
+  background-image: url(./assets/images/sprites.png);
+  background-position: -250px -70px;
+}
+
+.footer ul li h5 div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 93px;
+  height: 93px;
+  background-color: #fff;
+  border: solid 1px #eeeeee;
+}
+
+.footer ul li h5 div:nth-child(2) span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  /* background-color: skyblue; */
+  background-image: url(./assets/images/sprites.png);
+  background-position: -350px -70px;
+}
+
+/* 版权部分 */
+.drm {
+  height: 345px;
+  background-color: #333;
+}
+
+.drm ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 54px;
+  border-bottom: 3px solid #434343;
+}
+
+.drm ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 191px;
+  height: 58px;
+  color: #fff;
+  font-size: 28px;
+}
+
+.drm ul li span {
+  display: block;
+  margin-right: 19px;
+  width: 60px;
+  height: 60px;
+  background-image: url(./assets/images/sprites.png);
+  background-position: 0 0;
+}
+
+.about ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about ul li a{
+  font-size: 14px;
+  color: #999;
 }
 </style>
