@@ -1,27 +1,34 @@
 <template>
   <div class="banner">
     <div class="box">
-      <img src="../assets/uploads/banner_1.png" alt="" />
+      <img
+        v-for="(img, index) in imgArray"
+        :key="index"
+        v-show="index === mark"
+        :src="img"
+        alt=""
+      />
       <h2>
         <ul>
           <li>
             <a href="javascript:;" v-for="freshObj in fresh" :key="freshObj.id"
-              >{{ freshObj.sort}}<span>{{freshObj.datails}}</span>></a>
+              >{{ freshObj.sort }}<span>{{ freshObj.datails }}</span
+              >></a
+            >
           </li>
-          
         </ul>
       </h2>
       <div>
-        <span class="forward"></span>
-        <span class="back"></span>
+        <span @click="forward" class="forward"></span>
+        <span @click="back" class="back"></span>
       </div>
       <div class="point">
         <ul>
-          <li></li>
-          <li></li>
-          <li class="round"></li>
-          <li></li>
-          <li></li>
+          <li
+            v-for="(item, index) in imgArray"
+            :key="index"
+            :class="{ round: index === mark }"
+          ></li>
         </ul>
       </div>
     </div>
@@ -33,19 +40,51 @@ export default {
   name: "XtxBanner",
   data() {
     return {
-      fresh:[
-        {id:'001',sort:'生鲜',datails:'水果 蔬菜'},
-        {id:'002',sort:'美食',datails:'面点 干果'},
-        {id:'003',sort:'餐厨',datails:'数码产品'},
-        {id:'004',sort:'电器',datails:'床品 四件套'},
-        {id:'005',sort:'居家',datails:'奶粉 玩具'},
-        {id:'006',sort:'洗护',datails:'洗发 洗护'},
-        {id:'007',sort:'孕婴',datails:'奶粉 玩具'},
-        {id:'008',sort:'服饰',datails:'女装 男装'},
-        {id:'009',sort:'杂货',datails:'户外 图书'},
-        {id:'010',sort:'品牌',datails:'品牌制造'},
+      fresh: [
+        { id: "001", sort: "生鲜", datails: "水果 蔬菜" },
+        { id: "002", sort: "美食", datails: "面点 干果" },
+        { id: "003", sort: "餐厨", datails: "数码产品" },
+        { id: "004", sort: "电器", datails: "床品 四件套" },
+        { id: "005", sort: "居家", datails: "奶粉 玩具" },
+        { id: "006", sort: "洗护", datails: "洗发 洗护" },
+        { id: "007", sort: "孕婴", datails: "奶粉 玩具" },
+        { id: "008", sort: "服饰", datails: "女装 男装" },
+        { id: "009", sort: "杂货", datails: "户外 图书" },
+        { id: "010", sort: "品牌", datails: "品牌制造" },
+      ],
+
+      mark: 0,
+      imgArray: [
+        require("@/assets/uploads/banner_1.png"),
+        require("@/assets/uploads/banner_2.jpg"),
+        require("@/assets/uploads/banner_3.jpg"),
+        require("@/assets/uploads/banner_4.jpg"),
       ],
     };
+  },
+  methods: {
+    autoPlay() {
+      this.mark++;
+      if (this.mark === 4) {
+        this.mark = 0;
+      }
+    },
+    play() {
+      setInterval(this.autoPlay, 3000);
+    },
+
+    forward() {
+      if (this.mark <= 0) {
+        this.mark = 4;
+      }
+      this.mark--;
+    },
+    back() {
+      this.autoPlay();
+    },
+  },
+  created() {
+    this.play();
   },
 };
 </script>
@@ -104,6 +143,11 @@ export default {
   background-position: 15px -59px;
 }
 
+.banner .forward:hover {
+  background-color: #000;
+  opacity: 0.5;
+}
+
 .banner .back {
   position: absolute;
   top: 228px;
@@ -115,6 +159,11 @@ export default {
   opacity: 0.2;
   background-image: url(../assets/images/sprites.png);
   background-position: -23px -59px;
+}
+
+.banner .back:hover {
+  background-color: #000;
+  opacity: 0.5;
 }
 
 .banner .point {
